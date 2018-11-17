@@ -1,0 +1,20 @@
+/**
+ * @package      
+ * @version     1.0
+ * @author            
+ * @copyright   Copyright (c) 2014-2015,   
+ * @link           
+ */
+
+td.details-control {
+    background: url('./assets/js/plugins/datatables/images/forward_enabled.png') no-repeat center center;
+    cursor: pointer;
+}
+tr.shown td.details-control {
+    background: url('./assets/js/plugins/datatables/images/forward_disabled.png') no-repeat center center;
+}
+
+.modal .modal-body {
+    max-height: 420px;
+    overflow-y: auto;
+}
